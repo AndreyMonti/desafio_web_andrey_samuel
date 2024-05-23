@@ -1,0 +1,47 @@
+/* Andrey Montibeller-Samuel Boaz */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color:LightGray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 20px;
+    padding: 0px; 
+    box-sizing: border-box;
+}
+
+.box1, .box2 {
+    flex: 1; 
+    background-color: white;
+    border: 1px solid LightGray;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: calc(30% - 10px); 
+    box-sizing: border-box; 
+    text-align: center;
+    height: auto;
+    margin-right: 20px; 
+}
+
+
+.box1 h1, .box2 h2 {
+    margin-top: 20px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+}
+
+.box1 p, .box2 p {
+    margin-top: 30px;
+    color: black;
+    font-size: 20px
+    ;
+}
+
