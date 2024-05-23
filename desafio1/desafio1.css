@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: rgb(218, 216, 216);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.tabela-preco{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+}
+.card-preco{
+    box-shadow: 2px 2px 2px black;
+    border-radius: 8px;
+    flex: 1;
+    max-width: 360px;
+    background-color: white;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
+}
+.card-preco-header{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+.preco{
+    font-size: 40px;
+    margin: 40px 0;
+    transition: linear;
+}
+.preco sup, .preco span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-preco li{
+    font-size: 16px;
+    padding: 10px 0;
+}
+.btn{
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 18px 40px;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: .3s linear;
+    color: white;
+}
