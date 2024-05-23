@@ -29,7 +29,6 @@ body {
 .box{
     max-width: 100%;
     height: auto;
-    border-radius: 8px 8px 0 0;
 }
 
 .box h1 {
@@ -43,6 +42,5 @@ body {
 }
 #imag{
     height: 400px;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
+    border-radius: 8px 8px 0 0;
 }
