@@ -1,0 +1,58 @@
+/* andrey montibeller e samuel */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(199, 199, 199);
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+    height: 80vh;
+    margin-top: 5%;
+    background: white;
+    box-shadow: 2px 2px 2px gray;
+}
+.esquerda, .direita{
+    width: 50%;
+    padding: 30px;
+}
+.direita{
+    float: right;
+    margin-left: 30px;
+}
+#notebook{
+    width: 500px;
+    height: auto;
+    float: left;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px gray;
+}
+ul{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 20px;
+}
+h3{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+li{
+    padding: 12px 0;
+}
+h4{
+    color: red;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+#btn{
+    text-decoration: none;
+    background-color: black;
+    padding: 18px 40px;
+    border-radius: 8px;
+    color: white;
+}
